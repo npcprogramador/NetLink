@@ -31,7 +31,7 @@ section.main {
     justify-content: space-between;
 }
 
-hgroup {
+header {
     text-align: center;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     margin: 2rem 0;
@@ -44,7 +44,6 @@ h1 {
     text-transform: uppercase;
 }
 h3 {
-    font-size: 1.2rem;
     font-weight: 300;
     color: #efefef;
 }
@@ -128,6 +127,8 @@ fieldset {
     color: #171717;
     background-color: #fff;
     border: solid 3px #000;
+
+    margin: 20px auto;
 }
 
 fieldset legend {
