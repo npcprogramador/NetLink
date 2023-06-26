@@ -92,3 +92,50 @@ ul li a img {
     margin-right: 1.6rem;
     margin-left: 7.5px;
 }
+/*<==|TYPEWRITER|==>*/
+.typewriter {
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+  }
+
+.typewriter::after {
+    content: '_';
+    opacity: 1;
+    margin-left: 5px;
+    display: inline-block;
+    animation: blink .7s infinite;
+    font-weight: bold;
+}
+
+@keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+/*<==||==>*/
+fieldset {
+    margin-top: 30px;
+    width: 90%;
+    padding: 10px;
+
+    text-align: justify;
+    
+    color: #171717;
+    background-color: #fff;
+    border: solid 3px #000;
+}
+
+fieldset legend {
+    padding: 0 10px;
+
+    color: #171717;
+    background-color: #fff;
+    border: solid 3px #000;
+
+    font-weight: 600;
+}
