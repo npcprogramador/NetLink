@@ -20,8 +20,7 @@ h1, h3, p {
 
 section.main {
     min-width: 460px;
-    width: 100%;
-    max-width: 640px;
+    width: clamp( 320px , 100%, 640px );
     margin: 0 auto;
     padding: 15px;
 
@@ -29,7 +28,6 @@ section.main {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    overflow-x: hidden;
 }
 
 header {
